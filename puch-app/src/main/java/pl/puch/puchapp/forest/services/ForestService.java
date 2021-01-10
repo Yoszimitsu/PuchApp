@@ -8,10 +8,6 @@ import pl.puch.puchapp.forest.dto.ForestResponseDto;
 import pl.puch.puchapp.forest.errors.JsonResponseParserException;
 import pl.puch.puchapp.forest.services.rest.ForestRestClient;
 
-import java.util.Map;
-
-import static pl.puch.puchapp.forest.dto.ForestRequestDto.mapRequestParamsToForestRequestDto;
-
 @Service
 @Slf4j
 public class ForestService {
@@ -20,11 +16,15 @@ public class ForestService {
     private ForestRestClient forestRestClient;
     private ForestRequestDto forestRequestDto;
 
-    public ForestResponseDto getForestResponseDto(Map<String, String> forestRequestParams) throws JsonResponseParserException {
-        log.info("getForestResponseDto() start - requestParams{}", forestRequestParams.values());
+    public ForestResponseDto getForestResponseDto(String resourceId, String limit, String q, String offset) throws JsonResponseParserException {
+        log.info("getForestResponseDto() start - resourceId={}, limit={}, q={}, offset={}", resourceId, limit, q, offset);
 
-        forestRequestDto = new ForestRequestDto();
-        forestRequestDto = mapRequestParamsToForestRequestDto(forestRequestDto, forestRequestParams);
+        forestRequestDto = ForestRequestDto.builder()
+                .resourceId(resourceId)
+                .limit(limit)
+                .query(q)
+                .offset(offset)
+                .build();
         ForestResponseDto forestResponseDto = forestRestClient.sendRequestToForestApi(forestRequestDto);
 
         log.info("getForestResponseDto() end");

@@ -27,24 +27,21 @@ public class ForestRestClient {
 
     public ForestResponseDto sendRequestToForestApi(ForestRequestDto request) throws JsonResponseParserException {
         log.info("sendRequestToForestApi() start");
-
         String url = getApiUrl(request);
         log.info("generated url: {}", url);
 
         JsonNode response = restTemplate.getForObject(url, JsonNode.class);
-
         forestResponseDto = parseResponse(response, forestResponseDto);
 
         log.info("sendRequestToForestApi() end - result size: {}", forestResponseDto.getForestData().size());
         return forestResponseDto;
     }
 
-
     private String getApiUrl(ForestRequestDto request) {
         return UriComponentsBuilder
                 .fromHttpUrl(API_UM_URL)
                 .path(API_UM_DATASTORE)
-                .queryParam(FOREST_RESOURCE_ID, request.getRequestId())
+                .queryParam(FOREST_RESOURCE_ID, request.getResourceId())
                 .queryParamIfPresent(FOREST_QUERY_PARAM_LIMIT, Optional.ofNullable(request.getLimit()))
                 .queryParamIfPresent(FOREST_QUERY_PARAM_QUERY, Optional.ofNullable(request.getQuery()))
                 .build()
@@ -52,7 +49,6 @@ public class ForestRestClient {
     }
 
     private ForestResponseDto parseResponse(JsonNode response, ForestResponseDto forestResponseDto) throws JsonResponseParserException {
-
         ObjectMapper mapper = new ObjectMapper();
         try {
             if (response != null && !response.has("error")) {
