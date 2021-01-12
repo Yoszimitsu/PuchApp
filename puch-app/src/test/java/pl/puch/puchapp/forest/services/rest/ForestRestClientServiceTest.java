@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 import pl.puch.puchapp.forest.dto.ForestRequestDto;
 import pl.puch.puchapp.forest.errors.JsonResponseParserException;
 
-class ForestRestClientTest {
+class ForestRestClientServiceTest {
 
-    ForestRestClient forestRestClient = new ForestRestClient();
+    ForestRestClientService forestRestClientService = new ForestRestClientService();
 
     @Test
     public void sendRequestToForestApi0LimitTest() {
@@ -15,7 +15,7 @@ class ForestRestClientTest {
         forestRequestDto.setResourceId("75bedfd5-6c83-426b-9ae5-f03651857a48");
         forestRequestDto.setLimit("0");
 
-        var result = forestRestClient.sendRequestToForestApi(forestRequestDto);
+        var result = forestRestClientService.sendRequestToForestApi(forestRequestDto);
 
         Assert.assertEquals(result.getForestData().size(), Integer.parseInt(forestRequestDto.getLimit()));
         Assert.assertNotNull(result.getTotal());
@@ -28,7 +28,7 @@ class ForestRestClientTest {
         forestRequestDto.setResourceId("75bedfd5-6c83-426b-9ae5-f03651857a48");
         forestRequestDto.setLimit("10");
 
-        var result = forestRestClient.sendRequestToForestApi(forestRequestDto);
+        var result = forestRestClientService.sendRequestToForestApi(forestRequestDto);
 
         Assert.assertEquals(result.getForestData().size(), Integer.parseInt(forestRequestDto.getLimit()));
         Assert.assertNotNull(result.getTotal());
@@ -41,7 +41,7 @@ class ForestRestClientTest {
         forestRequestDto.setResourceId("75bedfd5-6c83-426b-9ae5-f03651857a48");
         forestRequestDto.setLimit("50");
 
-        var result = forestRestClient.sendRequestToForestApi(forestRequestDto);
+        var result = forestRestClientService.sendRequestToForestApi(forestRequestDto);
 
         Assert.assertEquals(result.getForestData().size(), Integer.parseInt(forestRequestDto.getLimit()));
         Assert.assertNotNull(result.getTotal());
@@ -54,7 +54,7 @@ class ForestRestClientTest {
         forestRequestDto.setResourceId("75bedfd5-6c83-426b-9ae5-f03651857a48");
         forestRequestDto.setQuery("Bemowo");
 
-        var result = forestRestClient.sendRequestToForestApi(forestRequestDto);
+        var result = forestRestClientService.sendRequestToForestApi(forestRequestDto);
 
         Assert.assertFalse(result.getForestData().isEmpty());
         Assert.assertTrue(result.getForestData().stream().allMatch(forest -> forest.toString().contains("Bemowo")));
@@ -68,7 +68,7 @@ class ForestRestClientTest {
 
         JsonResponseParserException exception = Assert.assertThrows(
                 JsonResponseParserException.class,
-                () -> forestRestClient.sendRequestToForestApi(forestRequestDto));
+                () -> forestRestClientService.sendRequestToForestApi(forestRequestDto));
 
         Assert.assertEquals("Error during JSON response processing. Error message: \"Nieautoryzowany dostęp do danych\"", exception.getMessage());
     }

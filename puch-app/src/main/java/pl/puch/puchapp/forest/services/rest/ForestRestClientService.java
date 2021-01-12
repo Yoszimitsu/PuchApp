@@ -14,8 +14,6 @@ import pl.puch.puchapp.forest.dto.ForestResponseDto;
 import pl.puch.puchapp.forest.errors.JsonResponseException;
 import pl.puch.puchapp.forest.errors.JsonResponseParserException;
 
-import java.io.DataInput;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,7 +21,7 @@ import static pl.puch.puchapp.forest.common.ForestApiConstants.*;
 
 @Service
 @Slf4j
-public class ForestRestClient {
+public class ForestRestClientService {
 
     @Autowired
     private RestTemplate restTemplate = new RestTemplate();
@@ -59,7 +57,7 @@ public class ForestRestClient {
                 JsonNode result = response.get("result");
 
                 if (result.has("records") && result.get("records").isArray()) {
-                    forestResponseDto.setForestData(mapper.readValue(result.get("records").toPrettyString(), new TypeReference<List<ForestDto>>(){}));
+                    forestResponseDto.setForestData(mapper.readValue(result.get("records").toPrettyString(), new TypeReference<List<ForestDto>>() {}));
                 }
                 if (result.has("_links")) {
                     forestResponseDto.setLinks(result.get("_links"));
