@@ -1,5 +1,6 @@
 package pl.puch.puchapp.forest.services.rest;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -7,11 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
+import pl.puch.puchapp.forest.dto.ForestDto;
 import pl.puch.puchapp.forest.dto.ForestRequestDto;
 import pl.puch.puchapp.forest.dto.ForestResponseDto;
 import pl.puch.puchapp.forest.errors.JsonResponseException;
 import pl.puch.puchapp.forest.errors.JsonResponseParserException;
 
+import java.io.DataInput;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
@@ -22,7 +26,7 @@ import static pl.puch.puchapp.forest.common.ForestApiConstants.*;
 public class ForestRestClient {
 
     @Autowired
-    private RestTemplate restTemplate;
+    private RestTemplate restTemplate = new RestTemplate();
     private ForestResponseDto forestResponseDto = new ForestResponseDto();
 
     public ForestResponseDto sendRequestToForestApi(ForestRequestDto request) throws JsonResponseParserException {
@@ -55,7 +59,7 @@ public class ForestRestClient {
                 JsonNode result = response.get("result");
 
                 if (result.has("records") && result.get("records").isArray()) {
-                    forestResponseDto.setForestData(mapper.readValue(result.get("records").toString(), List.class));
+                    forestResponseDto.setForestData(mapper.readValue(result.get("records").toPrettyString(), new TypeReference<List<ForestDto>>(){}));
                 }
                 if (result.has("_links")) {
                     forestResponseDto.setLinks(result.get("_links"));
