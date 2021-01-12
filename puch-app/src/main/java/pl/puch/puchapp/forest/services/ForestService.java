@@ -6,15 +6,15 @@ import org.springframework.stereotype.Service;
 import pl.puch.puchapp.forest.dto.ForestRequestDto;
 import pl.puch.puchapp.forest.dto.ForestResponseDto;
 import pl.puch.puchapp.forest.errors.JsonResponseParserException;
-import pl.puch.puchapp.forest.services.rest.ForestRestClient;
+import pl.puch.puchapp.forest.services.rest.ForestRestClientService;
 
 @Service
 @Slf4j
 public class ForestService {
 
     @Autowired
-    private ForestRestClient forestRestClient;
-    private ForestRequestDto forestRequestDto;
+    ForestRestClientService forestRestClientService = new ForestRestClientService();
+    ForestRequestDto forestRequestDto = new ForestRequestDto();
 
     public ForestResponseDto getForestResponseDto(String resourceId, String limit, String q, String offset) throws JsonResponseParserException {
         log.info("getForestResponseDto() start - resourceId={}, limit={}, q={}, offset={}", resourceId, limit, q, offset);
@@ -25,7 +25,7 @@ public class ForestService {
                 .query(q)
                 .offset(offset)
                 .build();
-        ForestResponseDto forestResponseDto = forestRestClient.sendRequestToForestApi(forestRequestDto);
+        ForestResponseDto forestResponseDto = forestRestClientService.sendRequestToForestApi(forestRequestDto);
 
         log.info("getForestResponseDto() end");
         return forestResponseDto;
