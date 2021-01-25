@@ -7,6 +7,7 @@ import {
 } from '@material-ui/pickers';
 import formatISO from 'date-fns/formatISO'
 import Container from "@material-ui/core/Container";
+import TextField from "@material-ui/core/TextField";
 
 
 const useStyles = makeStyles(theme => ({
@@ -32,12 +33,10 @@ function CarForm(props) {
         setRequestData({...requestData, [name]: event.target.value});
     };
 
-    const [selectedDate, setSelectedDate] = useState(props.state.requestData.dateFrom);
 
-    const handleDateChange = date => {
-        setSelectedDate(date);
+    const handleDateChange = name => date => {
         try {
-            setRequestData({...requestData, dateFrom: formatISO(date)});
+            setRequestData({...requestData, [name]: formatISO(date)});
         } catch (err) {
             console.log(err);
         }
@@ -52,7 +51,6 @@ function CarForm(props) {
                     Zmień parametry wyszukania
                 </Typography>
                 <Container>
-                    <div className={classes.marginInput}>
                         <MuiPickersUtilsProvider utils={DateFnsUtils}>
                             <KeyboardDatePicker
                                 disableToolbar
@@ -60,15 +58,35 @@ function CarForm(props) {
                                 format="MM/dd/yyyy"
                                 margin="normal"
                                 id="date-picker-inline"
-                                label="Data pierszej rejestracji"
-                                value={selectedDate}
-                                onChange={handleDateChange}
+                                label="Początek zakresu"
+                                value={requestData.dateFrom}
+                                onChange={handleDateChange("dateFrom")}
+                                KeyboardButtonProps={{
+                                    'aria-label': 'change date',
+                                }}
+                            />
+                            <KeyboardDatePicker
+                                disableToolbar
+                                variant="inline"
+                                format="MM/dd/yyyy"
+                                margin="normal"
+                                id="date-picker-inline2"
+                                label="Koniec zakresu"
+                                value={requestData.dateTo}
+                                onChange={handleDateChange("dateTo")}
                                 KeyboardButtonProps={{
                                     'aria-label': 'change date',
                                 }}
                             />
                         </MuiPickersUtilsProvider>
-                    </div>
+                    <TextField
+                        onChange={handleTextFieldChange('limit')}
+                        value={requestData.limit}
+                        id="limit"
+                        label="Limit"
+                        type="number"
+                        className={classes.marginInput}
+                    />
                 </Container>
                 </Container>
             </Paper>

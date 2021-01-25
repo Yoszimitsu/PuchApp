@@ -28,18 +28,23 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
+const today = new Date()
+const day1 = new Date(today)
+day1.setDate(day1.getDate() - 5)
+const day2 = new Date(today)
+day2.setDate(day2.getDate() - 4)
+
 function CarsDisplay() {
     const [carsListItems, setCarsListItems] = useState([]);
 
     const [requestData, setRequestData] = useState({
-        limit: 0,
-        page: 0,
-        dateFrom: formatISO(Date.now()),
-        dateTo: ""
+        limit: 5,
+        dateFrom: formatISO(day1),
+        dateTo: formatISO(day2)
     });
 
     useEffect(() => {
-        axios.get(API_ADDRESS + "cepik/vehicles?dateFrom=" + requestData.dateFrom.substring(0,10) + "&dateTo=" + formatISO(Date.now()).substring(0,10) + "&limit=5&page=1&voivodeshipCode=14", {
+        axios.get(API_ADDRESS + "cepik/vehicles?dateFrom=" + requestData.dateFrom.substring(0,10) + "&dateTo=" +  requestData.dateTo.substring(0,10) + "&limit=" + requestData.limit + "&page=1&voivodeshipCode=14", {
         })
             .then(function (response) {
                 setCarsListItems(response.data.data);
