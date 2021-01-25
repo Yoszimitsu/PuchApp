@@ -1,13 +1,10 @@
-import React, {useEffect, useState} from 'react';
-import {API_ADDRESS} from "../utils/constants";
-import TextField from "@material-ui/core/TextField";
-import InputLabel from "@material-ui/core/InputLabel";
-import Select from "@material-ui/core/Select";
-import MenuItem from "@material-ui/core/MenuItem";
-import Button from "@material-ui/core/Button";
-import {makeStyles, Typography} from "@material-ui/core";
+import React, {useState} from 'react';
+import {makeStyles, Paper, Typography} from "@material-ui/core";
 import DateFnsUtils from '@date-io/date-fns';
-import {DateTimePicker, MuiPickersUtilsProvider} from '@material-ui/pickers';
+import {
+    MuiPickersUtilsProvider,
+    KeyboardDatePicker,
+} from '@material-ui/pickers';
 import formatISO from 'date-fns/formatISO'
 import Container from "@material-ui/core/Container";
 
@@ -49,21 +46,32 @@ function CarForm(props) {
     const classes = useStyles();
     return (
         <div>
-            <Typography>
-                Wskaż zakres dat
-            </Typography>
-            <Container maxWidth="sm">
-                <div className={classes.marginInput}>
-                    <MuiPickersUtilsProvider utils={DateFnsUtils}>
-                        <DateTimePicker value={selectedDate}
-                                        onChange={handleDateChange}
-                                        autoOk
-                                        ampm={false}
-                                        label="Data pierszej rejestracji"
-                                        />
-                    </MuiPickersUtilsProvider>
-                </div>
-            </Container>
+            <Paper>
+                <Container>
+                <Typography variant={"h5"}>
+                    Zmień parametry wyszukania
+                </Typography>
+                <Container>
+                    <div className={classes.marginInput}>
+                        <MuiPickersUtilsProvider utils={DateFnsUtils}>
+                            <KeyboardDatePicker
+                                disableToolbar
+                                variant="inline"
+                                format="MM/dd/yyyy"
+                                margin="normal"
+                                id="date-picker-inline"
+                                label="Data pierszej rejestracji"
+                                value={selectedDate}
+                                onChange={handleDateChange}
+                                KeyboardButtonProps={{
+                                    'aria-label': 'change date',
+                                }}
+                            />
+                        </MuiPickersUtilsProvider>
+                    </div>
+                </Container>
+                </Container>
+            </Paper>
         </div>
     );
 }

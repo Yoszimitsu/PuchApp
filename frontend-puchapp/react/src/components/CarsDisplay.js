@@ -34,12 +34,12 @@ function CarsDisplay() {
     const [requestData, setRequestData] = useState({
         limit: 0,
         page: 0,
-        dateFrom: "2018-04-20T00:00:00",
+        dateFrom: formatISO(Date.now()),
         dateTo: ""
     });
 
     useEffect(() => {
-        axios.get(API_ADDRESS + "cepik/vehicles?dateFrom=" + requestData.dateFrom.substring(0,10) + "&dateTo=2018-04-21&limit=5&page=1&voivodeshipCode=14", {
+        axios.get(API_ADDRESS + "cepik/vehicles?dateFrom=" + requestData.dateFrom.substring(0,10) + "&dateTo=" + formatISO(Date.now()).substring(0,10) + "&limit=5&page=1&voivodeshipCode=14", {
         })
             .then(function (response) {
                 setCarsListItems(response.data.data);
@@ -52,7 +52,11 @@ function CarsDisplay() {
 
     const classes = useStyles();
     return (
-        <Container maxWidth="lg" className={classes.minPadding}>
+        <Container maxWidth="lg">
+            <Typography className={classes.title} variant={"h3"}>
+                API Cepik
+            </Typography>
+
             <CarForm state={{requestData: [requestData, setRequestData]}}/>
             <Typography className={classes.title} variant={"h5"}>
                 Wczytane pojazdy
