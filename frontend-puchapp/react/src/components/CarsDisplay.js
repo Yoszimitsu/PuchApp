@@ -7,6 +7,8 @@ import {makeStyles, Paper, Typography} from "@material-ui/core";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import Car from "./Car";
+import CarForm from "./CarForm";
+import formatISO from "date-fns/formatISO";
 
 const useStyles = makeStyles(theme => ({
     title: {
@@ -29,8 +31,15 @@ const useStyles = makeStyles(theme => ({
 function CarsDisplay() {
     const [carsListItems, setCarsListItems] = useState([]);
 
+    const [requestData, setRequestData] = useState({
+        limit: 0,
+        page: 0,
+        dateFrom: "2018-04-20T00:00:00",
+        dateTo: ""
+    });
+
     useEffect(() => {
-        axios.get(API_ADDRESS + "cepik/vehicles?dateFrom=2018-04-20&dateTo=2018-04-21&limit=5&page=1&voivodeshipCode=14", {
+        axios.get(API_ADDRESS + "cepik/vehicles?dateFrom=" + requestData.dateFrom.substring(0,10) + "&dateTo=2018-04-21&limit=5&page=1&voivodeshipCode=14", {
         })
             .then(function (response) {
                 setCarsListItems(response.data.data);
@@ -39,11 +48,12 @@ function CarsDisplay() {
             .catch(function (error) {
                 console.log("Something went wrong");
             });
-    }, []);
+    }, [requestData]);
 
     const classes = useStyles();
     return (
         <Container maxWidth="lg" className={classes.minPadding}>
+            <CarForm state={{requestData: [requestData, setRequestData]}}/>
             <Typography className={classes.title} variant={"h5"}>
                 Wczytane pojazdy
             </Typography>
