@@ -1,0 +1,1104 @@
+{
+  "data": [
+    {
+      "id": "6085624103059581",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "VOLKSWAGEN",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "POLO",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1390,
+        "curbWeight": 976,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6085624103059581"
+      }
+    },
+    {
+      "id": "5786423137752570",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "RENAULT/CARPOL",
+        "vehicleCategory": "19",
+        "type": "VB/CS",
+        "model": "MASTER",
+        "variant": "UM9T/CS",
+        "vehicleType": "SAMOCHÓD CIĘŻAROWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 2299,
+        "curbWeight": 2470,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5786423137752570"
+      }
+    },
+    {
+      "id": "6077886563810129",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "PEUGEOT",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "107",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1398,
+        "curbWeight": 990,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6077886563810129"
+      }
+    },
+    {
+      "id": "5762225487239882",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "PEUGEOT",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "308",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1560,
+        "curbWeight": 1535,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5762225487239882"
+      }
+    },
+    {
+      "id": "7344306849611044",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "SEAT",
+        "vehicleCategory": "13",
+        "type": "5F",
+        "model": "LEON ST",
+        "variant": "FCJXCX1V",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1984,
+        "curbWeight": 1470,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/7344306849611044"
+      }
+    },
+    {
+      "id": "4507761876542943",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "FORD",
+        "vehicleCategory": "13",
+        "type": "DYB",
+        "model": "FOCUS",
+        "variant": "IQDC15X",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1596,
+        "curbWeight": 1189,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/4507761876542943"
+      }
+    },
+    {
+      "id": "4637087368362460",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "BMW",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "328",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 2996,
+        "curbWeight": 1575,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/4637087368362460"
+      }
+    },
+    {
+      "id": "5649753759690448",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "KIA",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "CEED",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1991,
+        "curbWeight": 1499,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5649753759690448"
+      }
+    },
+    {
+      "id": "5172662260506752",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "TOYOTA",
+        "vehicleCategory": "13",
+        "type": "AB1",
+        "model": "AYGO",
+        "variant": "KGB40(H)",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 998,
+        "curbWeight": 875,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5172662260506752"
+      }
+    },
+    {
+      "id": "2364640669284531",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "TOYOTA",
+        "vehicleCategory": "13",
+        "type": null,
+        "model": "C-HR",
+        "variant": null,
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1798,
+        "curbWeight": 1450,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/2364640669284531"
+      }
+    },
+    {
+      "id": "7016174070939565",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "JAGUAR",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "F-TYPE",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 5000,
+        "curbWeight": 1730,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/7016174070939565"
+      }
+    },
+    {
+      "id": "972297291760935",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "VOLKSWAGEN",
+        "vehicleCategory": "13",
+        "type": "AUV",
+        "model": "GOLF",
+        "variant": "VACCHZCX0",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 999,
+        "curbWeight": 1220,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/972297291760935"
+      }
+    },
+    {
+      "id": "2478848006710843",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "HONDA",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "CBR",
+        "variant": "---",
+        "vehicleType": "MOTOCYKL",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 600,
+        "curbWeight": 208,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/2478848006710843"
+      }
+    },
+    {
+      "id": "1562525819967080",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "RENAULT",
+        "vehicleCategory": "19",
+        "type": "W",
+        "model": "KANGOO",
+        "variant": "FW51",
+        "vehicleType": "SAMOCHÓD CIĘŻAROWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1461,
+        "curbWeight": 1359,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/1562525819967080"
+      }
+    },
+    {
+      "id": "8758127130745571",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "AUDI",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "A3",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1595,
+        "curbWeight": 1165,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/8758127130745571"
+      }
+    },
+    {
+      "id": "2733014813665269",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "FORD",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "FIESTA",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1388,
+        "curbWeight": 1098,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/2733014813665269"
+      }
+    },
+    {
+      "id": "1562525819967107",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "PIAGGIO",
+        "vehicleCategory": "6",
+        "type": "MA1A",
+        "model": "VESPA SPRINT 125 ABS",
+        "variant": "3",
+        "vehicleType": "MOTOCYKL",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 124,
+        "curbWeight": 126,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/1562525819967107"
+      }
+    },
+    {
+      "id": "5925000393041956",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "VOLKSWAGEN",
+        "vehicleCategory": "13",
+        "type": "AUV",
+        "model": "GOLF",
+        "variant": "VACCZCAX0",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1395,
+        "curbWeight": 1263,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5925000393041956"
+      }
+    },
+    {
+      "id": "6935196651948414",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "CITROEN",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "C4 PICASSO",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1997,
+        "curbWeight": 1635,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6935196651948414"
+      }
+    },
+    {
+      "id": "3451930658913002",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "MERCEDES-BENZ",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "AXOR",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD CIĘŻAROWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 6374,
+        "curbWeight": 10810,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/3451930658913002"
+      }
+    },
+    {
+      "id": "6004970680311526",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "TOYOTA",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "AURIS",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1798,
+        "curbWeight": 1385,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6004970680311526"
+      }
+    },
+    {
+      "id": "8065246204241085",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "SKODA",
+        "vehicleCategory": "13",
+        "type": "5J",
+        "model": "FABIA",
+        "variant": "ACCHYBX01",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 999,
+        "curbWeight": 1055,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/8065246204241085"
+      }
+    },
+    {
+      "id": "765517723732294",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "TOYOTA",
+        "vehicleCategory": "13",
+        "type": "E15EJ(A)",
+        "model": "COROLLA",
+        "variant": "ZRE181(E)",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1598,
+        "curbWeight": 1300,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/765517723732294"
+      }
+    },
+    {
+      "id": "6707153416877980",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "RENAULT",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "TWINGO",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1149,
+        "curbWeight": 799,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6707153416877980"
+      }
+    },
+    {
+      "id": "8065246204241088",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "BMW",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "X5",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 2993,
+        "curbWeight": 2110,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/8065246204241088"
+      }
+    },
+    {
+      "id": "7313533276814441",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "AUDI",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "A4",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1896,
+        "curbWeight": 1390,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/7313533276814441"
+      }
+    },
+    {
+      "id": "3203235825762816",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "RENAULT",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "MIDLUM",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD CIĘŻAROWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 7146,
+        "curbWeight": 6780,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/3203235825762816"
+      }
+    },
+    {
+      "id": "4098734494001774",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "YAMAHA",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "YZF 1000R",
+        "variant": "---",
+        "vehicleType": "MOTOCYKL",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1002,
+        "curbWeight": 218,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/4098734494001774"
+      }
+    },
+    {
+      "id": "7160186382717377",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "FORD",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "KA",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1599,
+        "curbWeight": 1019,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/7160186382717377"
+      }
+    },
+    {
+      "id": "5936040085952643",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "VOLKSWAGEN",
+        "vehicleCategory": "13",
+        "type": "7HC",
+        "model": "MULTIVAN",
+        "variant": "MCXHA300X0",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1968,
+        "curbWeight": 2184,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5936040085952643"
+      }
+    },
+    {
+      "id": "7831248118485089",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "FORD",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "FOCUS",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1798,
+        "curbWeight": 1320,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/7831248118485089"
+      }
+    },
+    {
+      "id": "5467845001835528",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "MERCEDES-BENZ",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "E280",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 2987,
+        "curbWeight": 1720,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5467845001835528"
+      }
+    },
+    {
+      "id": "73470612269090",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "RENAULT/CARPOL",
+        "vehicleCategory": "19",
+        "type": "VB/CS",
+        "model": "MASTER",
+        "variant": "UM9T/CS",
+        "vehicleType": "SAMOCHÓD CIĘŻAROWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 2299,
+        "curbWeight": 2460,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/73470612269090"
+      }
+    },
+    {
+      "id": "5172662260506781",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "FORD",
+        "vehicleCategory": "13",
+        "type": null,
+        "model": "FOCUS",
+        "variant": null,
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1596,
+        "curbWeight": 1259,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5172662260506781"
+      }
+    },
+    {
+      "id": "108395388560321",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "DACIA",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "SANDERO",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1149,
+        "curbWeight": 1050,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/108395388560321"
+      }
+    },
+    {
+      "id": "5160431186700955",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "AUDI",
+        "vehicleCategory": "13",
+        "type": "B8",
+        "model": "A4 ALLROAD QUATTRO",
+        "variant": "H2DDWAQ1",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1984,
+        "curbWeight": 1600,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5160431186700955"
+      }
+    },
+    {
+      "id": "733336799751959",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "OPEL",
+        "vehicleCategory": "13",
+        "type": "Z-B",
+        "model": "INSIGNIA SPORTS TOURER",
+        "variant": "DA0EBAB12",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1490,
+        "curbWeight": 1447,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/733336799751959"
+      }
+    },
+    {
+      "id": "2114852053708276",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "FORD",
+        "vehicleCategory": "19",
+        "type": "FCC",
+        "model": "TRANSIT CUSTOM",
+        "variant": "YMF61ABX",
+        "vehicleType": "SAMOCHÓD CIĘŻAROWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1995,
+        "curbWeight": 1947,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/2114852053708276"
+      }
+    },
+    {
+      "id": "308194504687720",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "VOLKSWAGEN",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "PASSAT",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1984,
+        "curbWeight": 1514,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/308194504687720"
+      }
+    },
+    {
+      "id": "6313746775746150",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "VOLVO",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "C30",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1997,
+        "curbWeight": 1423,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6313746775746150"
+      }
+    },
+    {
+      "id": "3951068024546484",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "DACIA",
+        "vehicleCategory": "13",
+        "type": "SD",
+        "model": "LODGY",
+        "variant": "JSDDV",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1598,
+        "curbWeight": 1234,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/3951068024546484"
+      }
+    },
+    {
+      "id": "3583875637695831",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "FORD",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "FOCUS",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1997,
+        "curbWeight": 1391,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/3583875637695831"
+      }
+    },
+    {
+      "id": "4507761876542965",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "TOYOTA",
+        "vehicleCategory": "13",
+        "type": "T27",
+        "model": "AVENSIS",
+        "variant": "WWT271(E)",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1995,
+        "curbWeight": 1512,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/4507761876542965"
+      }
+    },
+    {
+      "id": "6851542333833666",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "AUDI",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "A6",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 2967,
+        "curbWeight": 1790,
+        "fuelType": "OLEJ NAPĘDOWY",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6851542333833666"
+      }
+    },
+    {
+      "id": "7893660536228116",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "MAZDA",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "6",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1798,
+        "curbWeight": 1459,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/7893660536228116"
+      }
+    },
+    {
+      "id": "7835334961505936",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "HARLEY DAVIDSON",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "FLSTC",
+        "variant": "---",
+        "vehicleType": "MOTOCYKL",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1690,
+        "curbWeight": 345,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/7835334961505936"
+      }
+    },
+    {
+      "id": "4939131638046572",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "HONDA",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "NC750XD",
+        "variant": "---",
+        "vehicleType": "MOTOCYKL",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 745,
+        "curbWeight": 230,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/4939131638046572"
+      }
+    },
+    {
+      "id": "6160229634713261",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "MOTO GUZZI",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "850 T5",
+        "variant": "---",
+        "vehicleType": "MOTOCYKL",
+        "vehicleOrigin": "UŻYW. ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 844,
+        "curbWeight": 250,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/6160229634713261"
+      }
+    },
+    {
+      "id": "5461095411064713",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "VOLKSWAGEN",
+        "vehicleCategory": "13",
+        "type": "2K",
+        "model": "CADDY",
+        "variant": "ACCZCBX0",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "NOWY ZAKUPIONY W KRAJU",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1395,
+        "curbWeight": 1339,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/5461095411064713"
+      }
+    },
+    {
+      "id": "4992034814932034",
+      "type": "pojazdy",
+      "attributes": {
+        "brand": "AUDI",
+        "vehicleCategory": "11111111",
+        "type": "---",
+        "model": "A6",
+        "variant": "---",
+        "vehicleType": "SAMOCHÓD OSOBOWY",
+        "vehicleOrigin": "UŻYW. IMPORT INDYW",
+        "productionYear": "FABRYCZNY",
+        "firstRegistrationDate": "2018-04-20",
+        "engineCubicCapacity": 1984,
+        "curbWeight": 1470,
+        "fuelType": "BENZYNA",
+        "voivodeshipCode": "14"
+      },
+      "links": {
+        "self": "https://api.cepik.gov.pl/pojazdy/4992034814932034"
+      }
+    }
+  ]
+}
