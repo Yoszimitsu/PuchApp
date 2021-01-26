@@ -1,9 +1,0 @@
-version: "3"
-
-services:
-  frontend-fltshr:
-    build: frontend-fltshr
-    image: frontend-fltshr:latest
-    container_name: "frontend-fltshr"
-    ports:
-      - '82:80'
