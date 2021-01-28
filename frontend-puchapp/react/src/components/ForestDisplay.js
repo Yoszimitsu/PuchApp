@@ -44,7 +44,14 @@ function ForestDisplay() {
                 console.log("Forests loaded, status: " + response.status)
             })
             .catch(function (error) {
-                console.log("Something went wrong");
+                if (error.response) {
+                    alert("Nieporawne parametry wyszukiwania API Lasy");
+                    setForestsListItems([]);
+                } else if (error.request) {
+                    console.log("NOT CONNECTED TO API");
+                } else {
+                    console.log("Something went wrong");
+                }
             });
     }, [requestData]);
 

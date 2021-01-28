@@ -30,9 +30,9 @@ const useStyles = makeStyles(theme => ({
 
 const today = new Date()
 const day1 = new Date(today)
-day1.setDate(day1.getDate() - 5)
+day1.setDate(day1.getDate() - 7)
 const day2 = new Date(today)
-day2.setDate(day2.getDate() - 4)
+day2.setDate(day2.getDate() - 3)
 
 function CarsDisplay() {
     const [carsListItems, setCarsListItems] = useState([]);
@@ -51,7 +51,14 @@ function CarsDisplay() {
                 console.log("Cars loaded, status: " + response.status)
             })
             .catch(function (error) {
-                console.log("Something went wrong");
+                if (error.response) {
+                    alert("Nieporawne parametry wyszukiwania API Cepik");
+                    setCarsListItems([]);
+                } else if (error.request) {
+                    console.log("NOT CONNECTED TO API");
+                } else {
+                    console.log("Something went wrong");
+                }
             });
     }, [requestData]);
 

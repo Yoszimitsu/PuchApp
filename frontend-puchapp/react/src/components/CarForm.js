@@ -12,13 +12,7 @@ import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles(theme => ({
     marginInput: {
-        marginTop: 20,
-        marginBottom: 20,
-    },
-    bigButton: {
-        height: 60,
-        marginTop: 20,
-        marginBottom: 40
+        margin: 10,
     }
 }));
 
@@ -54,6 +48,7 @@ function CarForm(props) {
                         <MuiPickersUtilsProvider utils={DateFnsUtils}>
                             <KeyboardDatePicker
                                 disableToolbar
+                                className={classes.marginInput}
                                 variant="inline"
                                 format="MM/dd/yyyy"
                                 margin="normal"
@@ -67,6 +62,7 @@ function CarForm(props) {
                             />
                             <KeyboardDatePicker
                                 disableToolbar
+                                className={classes.marginInput}
                                 variant="inline"
                                 format="MM/dd/yyyy"
                                 margin="normal"

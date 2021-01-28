@@ -6,14 +6,8 @@ import Container from "@material-ui/core/Container";
 
 const useStyles = makeStyles(theme => ({
     marginInput: {
-        marginTop: 20,
-        marginBottom: 20,
+        margin: 10
     },
-    bigButton: {
-        height: 60,
-        marginTop: 20,
-        marginBottom: 40
-    }
 }));
 
 function ForestForm(props) {
